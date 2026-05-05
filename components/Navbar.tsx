@@ -44,8 +44,8 @@ export default function Navbar() {
           </ul>
 
           <div className="flex flex-col space-y-2">
-            <button className="rounded-xl hover:bg-[#2a8f9e] border px-4 py-2 cursor-pointer">Login</button>
-            <button className="rounded-xl bg-[#2a8f9e] px-4 py-2 text-white curser-pointer">
+            <button className="rounded-xl hover:bg-teal-700 border px-4 py-2 cursor-pointer">Login</button>
+            <button className="rounded-xl bg-[#2a8f9e] bg-teal-700 px-4 py-2 text-white curser-pointer">
               Sign Up
             </button>
           </div>
