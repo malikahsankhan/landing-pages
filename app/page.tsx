@@ -1,6 +1,9 @@
-function App(){
-  return(
-    <h1>my app</h1>
+import Navbar from "@/components/Navbar";
+
+export default function Home() {
+  return (
+    <main>
+      <Navbar />
+    </main>
   );
 }
-export default App;
